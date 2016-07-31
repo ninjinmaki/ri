@@ -1,0 +1,88 @@
+body {
+    background-color: #5F9EA0;
+    color: #5F9EA0;
+    font-family: "Calibri", Helvetica;
+    font-size: 100%;
+    text-align: center;
+}
+.bg {
+    width: 80%;
+    max-width: 860px;
+    background: rgba(255, 255, 255, 0.9);
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    overflow:hidden;
+    padding-bottom: 4%;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 3%;
+    text-align: center;
+}
+.left {
+    float: left;
+    margin-left: 3%;
+    text-align: left;
+    width: 60%;
+    word-wrap: break-word;
+}
+.right {
+    float: right;
+    margin-right: 3%;
+    text-align: left;
+    width: 30%;
+    word-wrap: break-word;
+}
+.bottom {
+    float: left;
+    clear: right;
+    text-align: center;
+    width: 100%;
+}
+.image {
+    margin: auto;
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+}
+h1 {
+    font-size: 2.5em;
+    margin: 0;
+}
+h3, h4, h5, h6 {
+    color: #000000;
+    margin: 0;
+}
+p, pre {
+    color: #000000;
+}
+a {
+    color: #5F9EA0;
+}
+::selection {
+    background: #FFFFFF;
+    color: #F5B5C6;
+}
+
+@media (max-width: 710px){
+    .left {
+        width: 50%;
+    }
+    .right {
+        width:
+        40%;
+    }
+    .image img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 540px){
+    h1 {
+        font-size: 1.5em;
+    }
+    h1, h2, h3, h4, h5, h6, p, pre {
+        text-align: center;
+    }
+}
+
